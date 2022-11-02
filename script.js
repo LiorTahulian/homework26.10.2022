@@ -17,7 +17,7 @@ class User {
     showTheUserBooks() {
         console.log('The user ' + this.#firstName + ' ' + this.#lastName + ' from ' + this.#hometown + ' borrowed the following books:');
         this.#userBooks.forEach((book) => {
-            console.log(book)
+            console.log(book);
         });
 
         // במקום הפונקציה פוראיץ היה אפשר לעשות לולאת פור כך
